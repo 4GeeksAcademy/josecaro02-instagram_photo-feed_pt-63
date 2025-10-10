@@ -1,8 +1,9 @@
-.icono-html{
-    font-size: 50px;
-    color:aqua
+.btn-morado{
+    background-color: blueviolet;
+    color: white;
 }
 
-h1{
-    font-family: "Bitcount Prop Single Ink"
+.btn-morado:hover{
+    background-color: rgb(94, 26, 158);
+    color: white;
 }

@@ -12,12 +12,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <h1>Primer día!</h1>
-    <i class="fa-brands fa-html5 icono-html"></i>
+    <div class="container">
+
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                    Home
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                    Profile
+                </button>
+            </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <h1>Primer tab!</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Repellat voluptatum quam perspiciatis iure mollitia
+                    repellendus numquam vel corrupti officia asperiores ipsum
+                    ex rerum, sapiente consectetur ipsam facere, accusamus qui
+                    commodi facilis consequatur. Cupiditate, est suscipit
+                    repellat velit quia deserunt excepturi, temporibus
+                    accusantium sit fuga fugit laborum, ratione molestiae
+                    illo in.</p>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <button class="btn btn-success">Click me!</button>
+                <h1>Segundo tab!</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, fugiat?</p>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
 </body>
 
 </html>
